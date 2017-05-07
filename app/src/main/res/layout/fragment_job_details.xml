@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.anishdalal.finalapp.JobDetailsFragment">
+
+    <TextView
+        android:id="@+id/jd_title"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:text="Title"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical"
+        android:textSize="22sp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/jd_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text="$0.00"
+        android:textColor="#21c429"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/jd_description"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textSize="13sp"
+        android:text="Description:" />
+
+    <com.google.android.gms.maps.MapView
+        android:layout_marginTop="40dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>

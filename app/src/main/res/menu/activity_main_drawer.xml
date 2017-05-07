@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tasks"
+            android:icon="@drawable/ic_tasks"
+            android:title="@string/myTasks" />
+        <item
+            android:id="@+id/new_tasks"
+            android:icon="@drawable/ic_available_tasks"
+            android:title="@string/availableTasks" />
+        <item
+            android:id="@+id/add_new_job"
+            android:icon="@drawable/ic_plus_48"
+            android:title="@string/addNewJob" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/myProfile" />
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_export"
+            android:title="@string/signOut" />
+    </group>
+
+
+</menu>

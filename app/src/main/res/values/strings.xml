@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">FinalApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="directions_api_key">AIzaSyDFEJbQ2PTpoubaQ-zFmsVUDAzMbyal5XU</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_forgot_login">Sign in</string>
+
+    <!--Menu item styles-->
+    <string name="myTasks"><font color="@android:color/white">My Tasks</font></string>
+    <string name="availableTasks"><font color="@android:color/white">Available Tasks</font></string>
+    <string name="addNewJob"><font color="@android:color/white">Add New Jobs</font></string>
+    <string name="myProfile"><font color="@android:color/white">My Profile</font></string>
+    <string name="signOut"><font color="@android:color/white">Sign Out</font></string>
+
+    <string name="jd_decline"><font color="@color/colorPrimary">Decline</font></string>
+
+    <string name="settings"><font color="@android:color/black">Settings</font></string>
+
+</resources>

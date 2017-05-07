@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/jd_action_accept"
+        android:icon="@drawable/ic_check"
+        android:orderInCategory="10"
+        android:title="Accept"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/jd_action_decline"
+        android:icon="@drawable/ic_cancel"
+        android:orderInCategory="11"
+        android:title="@string/jd_decline"
+        app:showAsAction="always">
+    </item>
+</menu>
